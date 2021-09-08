@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sales>
+    <sale>
+        <car make="Toyota" model="Prius" travelled-distance="9223354775807"/>
+        <customer-name>Lino Subia</customer-name>
+        <discount>0.05</discount>
+        <price>221.17</price>
+        <price-with-discount>210.11149999999998</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Peugeot" model="308" travelled-distance="775807"/>
+        <customer-name>Hipolito Lamoreaux</customer-name>
+        <discount>0.1</discount>
+        <price>252.38</price>
+        <price-with-discount>227.142</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Ferrari" model="250 GTO" travelled-distance="214747"/>
+        <customer-name>Faustina Burgher</customer-name>
+        <discount>0.3</discount>
+        <price>104.97999999999999</price>
+        <price-with-discount>73.48599999999999</price-with-discount>
+    </sale>
+</sales>

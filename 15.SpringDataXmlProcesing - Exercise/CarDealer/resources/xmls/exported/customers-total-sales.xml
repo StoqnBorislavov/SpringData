@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customers>
+    <customer full-name="Lino Subia" bought-cars="1" spent-money="221.17"/>
+    <customer full-name="Faustina Burgher" bought-cars="1" spent-money="104.97999999999999"/>
+    <customer full-name="Hipolito Lamoreaux" bought-cars="1" spent-money="252.38"/>
+</customers>
