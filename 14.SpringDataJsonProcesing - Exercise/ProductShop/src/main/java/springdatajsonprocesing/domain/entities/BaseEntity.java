@@ -1,0 +1,26 @@
+package springdatajsonprocesing.domain.entities;
+
+
+import org.hibernate.annotations.GeneratorType;
+
+import javax.persistence.*;
+
+@MappedSuperclass
+public class BaseEntity {
+
+    private Long id;
+
+    public BaseEntity() {
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", unique = true, updatable = false)
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+}
